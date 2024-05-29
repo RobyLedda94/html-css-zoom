@@ -6,17 +6,16 @@
 
 
 main{
-    background-color: black;
-    height: calc(100vh - 100px);
+    background-color: black;  
+    height: calc(100vh - 80px);
     overflow-y: auto;
     padding: 30px;
     
 }
 
 footer{
-    height: 100px;
-    width: 100vw;
-    background-color: rgb(53, 53, 53);
+    height: 80px;
+    background-color: rgb(43, 43, 43);
 }
 
 
@@ -45,7 +44,7 @@ footer{
 }
 
 .col-bg{
-    
+    width: 60%;
 }
 
 .col-sm{
@@ -53,19 +52,40 @@ footer{
 }
 
 .content-main{
+    position: relative;
     margin: 5px;
 }
 
 
-.content-footer{
-    width: 100vw;
-    height: 100%;
-}
 
 
 /* STYLING CLASS */
 
 .content-main > img{
     width: 100%;
+    height: 150px;
+}
+
+.text-img{
+    position: absolute;
+    bottom: 4px;
+    background-color:#20202087; ;
+    padding: 5px;
+    color: white;
+}
+
+.content-footer{
+    padding: 30px;
+    color: white;
+}
+
+.content-footer.text-center{
+    text-align: center;
+}
+
+.content-footer.text-right{
+    text-align: right;
+    color: red;
+    background-color: #424242; 
 }
 
