@@ -15,6 +15,7 @@ main{
 
 footer{
     height: 100px;
+    width: 100vw;
     background-color: rgb(53, 53, 53);
 }
 
@@ -34,16 +35,21 @@ footer{
     flex-wrap: wrap;
 }
 
+.justify{
+    justify-content: space-between;
+}
+
 .col-20{
     width: calc(100% / 7);
+    min-width: 150px;
 }
 
 .col-bg{
-    width: 85%;
+    
 }
 
 .col-sm{
-    width: 15%;
+    width: 20%;
 }
 
 .content-main{
@@ -52,9 +58,8 @@ footer{
 
 
 .content-footer{
-    background-color: rgb(218, 103, 103);
-    margin-top: 40px;
-    border: 1px solid black;
+    width: 100vw;
+    height: 100%;
 }
 
 
