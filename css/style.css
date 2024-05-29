@@ -72,10 +72,15 @@ footer{
     position: fixed;
     z-index: 1;
     display: flex;
-    color: #fff;
     top: 10px;
     right: 30px;
     font-size: 12px;
+}
+
+.top-labels  a{
+    color: #fff;
+    text-decoration: none;
+
 }
 
 .top1, .top2{
@@ -98,8 +103,12 @@ footer{
     bottom: 4px;
     background-color:#20202087; 
     padding: 5px;
+}
+
+.text-img a{
     color: white;
     font-size: 12px;
+    text-decoration: none;
 }
 
 .content-footer{
