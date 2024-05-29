@@ -12,14 +12,14 @@ body{
 
 main{
     background-color: black;  
-    height: calc(100vh - 80px);
+    height: calc(100vh - 10vh);
     overflow-y: auto;
     padding: 50px;
     
 }
 
 footer{
-    height: 80px;
+    height: 10vh;
     background-color: rgb(43, 43, 43);
 }
 
@@ -34,6 +34,16 @@ footer{
     margin: 0 auto;
 }
 
+.content-main{
+    position: relative;
+    margin: 5px;
+}
+
+
+.container-footer{
+    width: 100%;
+}
+
 
 .row{
     display: flex;
@@ -42,6 +52,7 @@ footer{
 
 .justify{
     justify-content: space-between;
+    align-items: center;
 }
 
 .col-20{
@@ -57,10 +68,6 @@ footer{
     width: 20%;
 }
 
-.content-main{
-    position: relative;
-    margin: 5px;
-}
 
 
 
@@ -95,7 +102,7 @@ footer{
 
 .content-main > img{
     width: 100%;
-    height: 150px;
+    height: 160px;
 }
 
 .text-img{
@@ -112,8 +119,15 @@ footer{
 }
 
 .content-footer{
-    padding: 30px;
     color: white;
+}
+
+.content-footer i{
+    font-size: 30px;
+}
+
+.content-footer.py-30{
+    padding: 30px 0;
 }
 
 .content-footer.text-center{
@@ -121,8 +135,8 @@ footer{
 }
 
 .content-footer.text-right{
+    font-size: 20px;
     text-align: right;
-    color: red;
-    background-color: #424242; 
+    color: red; 
 }
 
