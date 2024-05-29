@@ -43,8 +43,6 @@ footer{
 }
 
 .content-main{
-    background-color: red;
-    height: 200px;
     margin: 5px;
 }
 
@@ -53,5 +51,12 @@ footer{
     background-color: rgb(218, 103, 103);
     margin-top: 20px;
     border: 1px solid black;
+}
+
+
+/* STYLING CLASS */
+
+.content-main > img{
+    width: 100%;
 }
 
