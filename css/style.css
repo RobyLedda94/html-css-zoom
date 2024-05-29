@@ -7,6 +7,14 @@
 
 main{
     background-color: black;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    
+}
+
+footer{
+    height: 100px;
+    background-color: darkgray;
 }
 
 
@@ -29,8 +37,20 @@ main{
     width: calc(100% / 7);
 }
 
-.content{
+.col-30{
+    width: calc(100% / 3)
+}
+
+.content-main{
     background-color: red;
     height: 200px;
     margin: 5px;
 }
+
+
+.content-footer{
+    background-color: rgb(218, 103, 103);
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
