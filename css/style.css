@@ -12,14 +12,16 @@ body{
 
 main{
     background-color: black;  
-    height: calc(100vh - 10vh);
+    height: calc(100vh - 20vh);
+    width: 100vw; 
     overflow-y: auto;
     padding: 50px;
     
 }
 
 footer{
-    height: 10vh;
+    height: 20vh;
+    width: 100vw; 
     background-color: rgb(43, 43, 43);
 }
 
