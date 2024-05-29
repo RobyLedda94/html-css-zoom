@@ -15,7 +15,6 @@ main{
 
 footer{
     height: 100px;
-    background-color: darkgray;
 }
 
 
@@ -39,7 +38,11 @@ footer{
 }
 
 .col-30{
-    width: calc(100% / 3)
+    width: 30%;
+}
+
+.col-70{
+    width: 70%;
 }
 
 .content-main{
