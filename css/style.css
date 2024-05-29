@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+main{
+    background-color: black;
+}
+
+
+
+
+/* LAYOUT CLASSES */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-20{
+    width: calc(100% / 7);
+}
+
+.content{
+    background-color: red;
+    height: 200px;
+    margin: 5px;
+}
